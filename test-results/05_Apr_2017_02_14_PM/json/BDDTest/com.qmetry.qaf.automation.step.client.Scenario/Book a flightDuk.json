@@ -1,0 +1,212 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "launch",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "getCurrentWindowHandle",
+          "args": [
+            "{}"
+          ],
+          "result": "CDwindow-6cf513ef-6a2d-4d81-b1f2-4986a466ceaf",
+          "subLogs": [],
+          "duration": 5
+        },
+        {
+          "commandName": "getCurrentWindowHandle",
+          "args": [
+            "{}"
+          ],
+          "result": "CDwindow-6cf513ef-6a2d-4d81-b1f2-4986a466ceaf",
+          "subLogs": [],
+          "duration": 5
+        },
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://www.makemytrip.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 3708
+        },
+        {
+          "commandName": "maximizeWindow",
+          "args": [
+            "{windowHandle=current}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1189
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "selectfromcity",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "getCurrentWindowHandle",
+          "args": [
+            "{}"
+          ],
+          "result": "CDwindow-6cf513ef-6a2d-4d81-b1f2-4986a466ceaf",
+          "subLogs": [],
+          "duration": 0
+        },
+        {
+          "commandName": "getCurrentWindowHandle",
+          "args": [
+            "{}"
+          ],
+          "result": "CDwindow-6cf513ef-6a2d-4d81-b1f2-4986a466ceaf",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=#hp-widget__sfrom, using=css selector}"
+          ],
+          "result": "id: 0.461973086761603-1",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.cssSelector: #hp-widget__sfrom",
+            "{\"id\":\"0.461973086761603-1\",\"value\":[{},{},{}]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 145
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "selecttocity",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "getCurrentWindowHandle",
+          "args": [
+            "{}"
+          ],
+          "result": "CDwindow-6cf513ef-6a2d-4d81-b1f2-4986a466ceaf",
+          "subLogs": [],
+          "duration": 6
+        },
+        {
+          "commandName": "getCurrentWindowHandle",
+          "args": [
+            "{}"
+          ],
+          "result": "CDwindow-6cf513ef-6a2d-4d81-b1f2-4986a466ceaf",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=#hp-widget__sTo, using=css selector}"
+          ],
+          "result": "id: 0.461973086761603-2",
+          "subLogs": [],
+          "duration": 32
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.cssSelector: #hp-widget__sTo",
+            "{\"id\":\"0.461973086761603-2\",\"value\":[\"pune\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 339
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "selecFromdate",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "getCurrentWindowHandle",
+          "args": [
+            "{}"
+          ],
+          "result": "CDwindow-6cf513ef-6a2d-4d81-b1f2-4986a466ceaf",
+          "subLogs": [],
+          "duration": 7
+        },
+        {
+          "commandName": "getCurrentWindowHandle",
+          "args": [
+            "{}"
+          ],
+          "result": "CDwindow-6cf513ef-6a2d-4d81-b1f2-4986a466ceaf",
+          "subLogs": [],
+          "duration": 0
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given Launch the mmt homepage",
+      "type": "TestStepPass",
+      "duration": 9020,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then Select fromcity",
+      "type": "TestStepPass",
+      "duration": 255,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then Enter to city",
+      "type": "TestStepPass",
+      "duration": 459,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then Get list of date",
+      "type": "TestStepFail",
+      "screenshot": "test-results/05_Apr_2017_02_14_PM/img/Book a flight_aigmipphet0711845.png",
+      "duration": 59,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement cannot be cast to java.util.List",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ],
+  "errorTrace": "java.lang.ClassCastException: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement cannot be cast to java.util.List\r\n\tat .Then Get list of date(scenarios/Mmt.bdd:9)\r\n\tat com.makemytrip.steps.Clickonwebelement.selecFromdate_aroundBody6(Clickonwebelement.java:42)\r\n\tat com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:89)\r\n\tat com.makemytrip.steps.Clickonwebelement.selecFromdate(Clickonwebelement.java:41)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:129)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:148)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:109)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:151)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:199)\r\n"
+}

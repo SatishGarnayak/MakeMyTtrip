@@ -1,0 +1,17 @@
+15:39:03 scenario.file.loc[Ljava.lang.String;@167fdd33
+15:39:03 loading BDD file: D:\QAS_Satish\Makemytrip\.\scenarios\Mmt.bdd
+15:39:03 total test found: 1
+15:39:03 
+
+Executing scenario: Book a flight - Booking a flight
+15:39:03 pkg: com.qmetry.qaf.automation.step
+15:39:03 pkg: com.makemytrip
+15:39:03 Invoking Teststep: Given Launch the mmt homepage
+15:39:11 Completed Teststep: Given Launch the mmt homepage
+15:39:11 Invoking Teststep: Then Select fromcity
+15:39:11 Completed Teststep: Then Select fromcity
+15:39:11 Invoking Teststep: Then Enter to city
+15:39:11 Completed Teststep: Then Enter to city
+15:39:11 Invoking Teststep: Then Click on search
+15:39:14 Completed Teststep: Then Click on search
+15:39:14 Competed scenario: Book a flight with status SUCESS

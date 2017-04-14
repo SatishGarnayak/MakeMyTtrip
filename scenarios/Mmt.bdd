@@ -1,0 +1,12 @@
+
+
+SCENARIO: Book a flight
+META-DATA: {"description":"Booking a flight","groups":["SMOKE"]}
+	
+	Given Launch the mmt homepage
+	Then Select fromcity 
+	Then Enter to city
+	Then Click on search
+	
+	
+END

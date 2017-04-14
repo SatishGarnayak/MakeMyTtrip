@@ -1,0 +1,239 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "launch",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "getCurrentWindowHandle",
+          "args": [
+            "{}"
+          ],
+          "result": "CDwindow-393885b3-4ce2-4481-a4de-80df51be6670",
+          "subLogs": [],
+          "duration": 0
+        },
+        {
+          "commandName": "getCurrentWindowHandle",
+          "args": [
+            "{}"
+          ],
+          "result": "CDwindow-393885b3-4ce2-4481-a4de-80df51be6670",
+          "subLogs": [],
+          "duration": 0
+        },
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://www.makemytrip.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 12582
+        },
+        {
+          "commandName": "maximizeWindow",
+          "args": [
+            "{windowHandle=current}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1185
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "selectfromcity",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "getCurrentWindowHandle",
+          "args": [
+            "{}"
+          ],
+          "result": "CDwindow-393885b3-4ce2-4481-a4de-80df51be6670",
+          "subLogs": [],
+          "duration": 5
+        },
+        {
+          "commandName": "getCurrentWindowHandle",
+          "args": [
+            "{}"
+          ],
+          "result": "CDwindow-393885b3-4ce2-4481-a4de-80df51be6670",
+          "subLogs": [],
+          "duration": 5
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=#hp-widget__sfrom, using=css selector}"
+          ],
+          "result": "id: 0.9926675616084413-1",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.cssSelector: #hp-widget__sfrom",
+            "{\"id\":\"0.9926675616084413-1\",\"value\":[{},{},{}]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 160
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "selecttocity",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "getCurrentWindowHandle",
+          "args": [
+            "{}"
+          ],
+          "result": "CDwindow-393885b3-4ce2-4481-a4de-80df51be6670",
+          "subLogs": [],
+          "duration": 4
+        },
+        {
+          "commandName": "getCurrentWindowHandle",
+          "args": [
+            "{}"
+          ],
+          "result": "CDwindow-393885b3-4ce2-4481-a4de-80df51be6670",
+          "subLogs": [],
+          "duration": 3
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=#hp-widget__sTo, using=css selector}"
+          ],
+          "result": "id: 0.9926675616084413-2",
+          "subLogs": [],
+          "duration": 30
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.cssSelector: #hp-widget__sTo",
+            "{\"id\":\"0.9926675616084413-2\",\"value\":[\"pune\",{}]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 196
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "Clickonsearch",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "getCurrentWindowHandle",
+          "args": [
+            "{}"
+          ],
+          "result": "CDwindow-393885b3-4ce2-4481-a4de-80df51be6670",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "getCurrentWindowHandle",
+          "args": [
+            "{}"
+          ],
+          "result": "CDwindow-393885b3-4ce2-4481-a4de-80df51be6670",
+          "subLogs": [],
+          "duration": 7
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=#searchBtn, using=css selector}"
+          ],
+          "result": "id: 0.9926675616084413-3",
+          "subLogs": [],
+          "duration": 106
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.cssSelector: #searchBtn",
+            "{\"id\":\"0.9926675616084413-3\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 4302
+        },
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "Flight Search",
+          "subLogs": [],
+          "duration": 33
+        },
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "Flight Search",
+          "subLogs": [],
+          "duration": 9
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given Launch the mmt homepage",
+      "type": "TestStepPass",
+      "duration": 16446,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then Select fromcity",
+      "type": "TestStepPass",
+      "duration": 276,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then Enter to city",
+      "type": "TestStepPass",
+      "duration": 303,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then Click on search",
+      "type": "TestStepPass",
+      "duration": 4549,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

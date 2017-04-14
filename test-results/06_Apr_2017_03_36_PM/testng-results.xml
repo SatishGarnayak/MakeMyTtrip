@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="1" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>Given Launch the mmt homepage</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 0 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.
+Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+null
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL11465', ip: '10.11.31.36', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'
+Driver info: driver.version: FirefoxDriver</div></div><div  class="teststep"><span class="teststep-label">T </span>Then Select fromcity</div><div  class="teststep"><span class="teststep-label">T </span>Then Enter to city</div><div  class="teststep"><span class="teststep-label">T </span>Then Click on search</div></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="QAS Demo" duration-ms="672" started-at="2017-04-06T10:06:33Z" finished-at="2017-04-06T10:06:33Z">
+    <groups>
+      <group name="SMOKE">
+        <method signature="scenarios.Mmt.bdd.Book a flight()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" name="Book a flight" class="com.qmetry.qaf.automation.step.client.Scenario"/>
+      </group> <!-- SMOKE -->
+    </groups>
+    <test name="BDD Test" duration-ms="672" started-at="2017-04-06T10:06:33Z" finished-at="2017-04-06T10:06:33Z">
+      <class name="com.qmetry.qaf.automation.step.client.Scenario">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Book a flight" name="setupSuit" is-config="true" duration-ms="15" started-at="2017-04-06T15:36:33Z" finished-at="2017-04-06T15:36:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d826d77]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Book a flight" name="setupTest" is-config="true" duration-ms="0" started-at="2017-04-06T15:36:33Z" finished-at="2017-04-06T15:36:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d826d77]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Book a flight" name="setupMethod" is-config="true" duration-ms="0" started-at="2017-04-06T15:36:33Z" finished-at="2017-04-06T15:36:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.Scenario.scenario()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d826d77]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Book a flight" name="setup" is-config="true" duration-ms="0" started-at="2017-04-06T15:36:33Z" finished-at="2017-04-06T15:36:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d826d77]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="Book a flight()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Book a flight" name="Book a flight" duration-ms="625" started-at="2017-04-06T15:36:33Z" description="Booking a flight" finished-at="2017-04-06T15:36:33Z">
+          <exception class="com.qmetry.qaf.automation.core.AutomationError">
+            <message>
+              <![CDATA[Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 0 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.
+Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+null
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL11465', ip: '10.11.31.36', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'
+Driver info: driver.version: FirefoxDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.qmetry.qaf.automation.core.AutomationError: Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 0 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.
+Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+null
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL11465', ip: '10.11.31.36', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'
+Driver info: driver.version: FirefoxDriver
+	at .Given Launch the mmt homepage(scenarios/Mmt.bdd:6)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:129)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:119)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:216)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:211)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:128)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory.getDriverObj(UiDriverFactory.java:247)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory.access$4(UiDriverFactory.java:242)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory$Browsers.getDriver(UiDriverFactory.java:409)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory$Browsers.access$4(UiDriverFactory.java:397)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory.getDriver(UiDriverFactory.java:233)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory.get(UiDriverFactory.java:94)
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:487)
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	at com.qmetry.qaf.automation.core.QAFTestBase.init(QAFTestBase.java:389)
+	at com.qmetry.qaf.automation.core.QAFTestBase.getUiDriver(QAFTestBase.java:177)
+	at com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:47)
+	at com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:1)
+	at com.qmetry.qaf.automation.ui.AbstractTestPage.<init>(AbstractTestPage.java:86)
+	at com.qmetry.qaf.automation.ui.AbstractTestPage.<init>(AbstractTestPage.java:93)
+	at com.qmetry.qaf.automation.ui.WebDriverBaseTestPage.<init>(WebDriverBaseTestPage.java:62)
+	at com.qmetry.qaf.automation.ui.WebDriverBaseTestPage.<init>(WebDriverBaseTestPage.java:58)
+	at com.makemytrip.steps.Clickonwebelement.<init>(Clickonwebelement.java:24)
+	at java.lang.Class.newInstance(Unknown Source)
+	at com.qmetry.qaf.automation.step.JavaStep.getClassInstance(JavaStep.java:292)
+	at com.qmetry.qaf.automation.step.JavaStep.getStepProvider(JavaStep.java:185)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:148)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)
+	at com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.qmetry.qaf.automation.core.AutomationError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>Given Launch the mmt homepage</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 0 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.
+Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+null
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL11465', ip: '10.11.31.36', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'
+Driver info: driver.version: FirefoxDriver</div></div><div  class="teststep"><span class="teststep-label">T </span>Then Select fromcity</div><div  class="teststep"><span class="teststep-label">T </span>Then Enter to city</div><div  class="teststep"><span class="teststep-label">T </span>Then Click on search</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Book a flight -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Book a flight" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-04-06T15:36:33Z" finished-at="2017-04-06T15:36:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d826d77]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Book a flight status=SKIP method=scenarios.Mmt.bdd.Book a flight()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>Given Launch the mmt homepage</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 0 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.
+Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+null
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL11465', ip: '10.11.31.36', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'
+Driver info: driver.version: FirefoxDriver</div></div><div  class="teststep"><span class="teststep-label">T </span>Then Select fromcity</div><div  class="teststep"><span class="teststep-label">T </span>Then Enter to city</div><div  class="teststep"><span class="teststep-label">T </span>Then Click on search</div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Book a flight" name="afterClass" is-config="true" duration-ms="0" started-at="2017-04-06T15:36:33Z" finished-at="2017-04-06T15:36:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d826d77]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Book a flight" name="afterTest" is-config="true" duration-ms="0" started-at="2017-04-06T15:36:33Z" finished-at="2017-04-06T15:36:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d826d77]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Book a flight" name="afterSuit" is-config="true" duration-ms="0" started-at="2017-04-06T15:36:33Z" finished-at="2017-04-06T15:36:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d826d77]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- com.qmetry.qaf.automation.step.client.Scenario -->
+    </test> <!-- BDD Test -->
+  </suite> <!-- QAS Demo -->
+</testng-results>

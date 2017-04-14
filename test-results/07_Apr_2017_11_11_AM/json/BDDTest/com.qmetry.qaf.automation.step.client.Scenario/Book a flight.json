@@ -1,0 +1,167 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "launch",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://www.makemytrip.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 15937
+        },
+        {
+          "commandName": "maximizeWindow",
+          "args": [
+            "{windowHandle=current}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1186
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "selectfromcity",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=#hp-widget__sfrom, using=css selector}"
+          ],
+          "result": "id: 0.11832850952752327-1",
+          "subLogs": [],
+          "duration": 41
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.cssSelector: #hp-widget__sfrom",
+            "{\"id\":\"0.11832850952752327-1\",\"value\":[{},{},{}]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 122
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "selecttocity",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=#hp-widget__sTo, using=css selector}"
+          ],
+          "result": "id: 0.11832850952752327-2",
+          "subLogs": [],
+          "duration": 75
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.cssSelector: #hp-widget__sTo",
+            "{\"id\":\"0.11832850952752327-2\",\"value\":[\"pune\",{}]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 152
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "Clickonsearch",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=#searchBtn, using=css selector}"
+          ],
+          "result": "id: 0.11832850952752327-3",
+          "subLogs": [],
+          "duration": 56
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.cssSelector: #searchBtn",
+            "{\"id\":\"0.11832850952752327-3\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 14347
+        },
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "Flight Search",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "Flight Search",
+          "subLogs": [],
+          "duration": 6
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given Launch the mmt homepage",
+      "type": "TestStepPass",
+      "duration": 19984,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then Select fromcity",
+      "type": "TestStepPass",
+      "duration": 184,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then Enter to city",
+      "type": "TestStepPass",
+      "duration": 232,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then Click on search",
+      "type": "TestStepPass",
+      "duration": 14427,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

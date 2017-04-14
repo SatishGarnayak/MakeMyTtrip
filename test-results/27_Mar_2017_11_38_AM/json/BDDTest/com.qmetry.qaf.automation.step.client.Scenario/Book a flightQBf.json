@@ -1,0 +1,32 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "Selectlist",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given select list of webelements",
+      "type": "TestStepFail",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Unresolved compilation problems: \n\tSyntax error, insert \"VariableDeclarators\" to complete LocalVariableDeclaration\n\tSyntax error, insert \";\" to complete BlockStatements\n\tSyntax error on token \"}\", delete this token\n",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ],
+  "errorTrace": "java.lang.Error: Unresolved compilation problems: \n\tSyntax error, insert \"VariableDeclarators\" to complete LocalVariableDeclaration\n\tSyntax error, insert \";\" to complete BlockStatements\n\tSyntax error on token \"}\", delete this token\n\r\n\tat .Given select list of webelements(scenarios/Mmt.bdd:6)\r\n\tat com.makemytrip.steps.Clickonwebelement.<init>(Clickonwebelement.java:25)\r\n\tat java.lang.Class.newInstance(Unknown Source)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.getStepProvider(JavaStep.java:156)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:124)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:148)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:109)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:151)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:199)\r\n"
+}

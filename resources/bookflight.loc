@@ -1,0 +1,7 @@
+Fromsourcelist = {\"locator\":\"css=#hp-widget__sfrom\",\"desc\":\"click on source\"}
+Selectcity = {\"locator\":\"css=#ui-id-1949\",\"desc\":\"city selected\"}
+Tocity = {\"locator\":\"css=#hp-widget__sTo\",\"desc\":\"destination city selected\"}
+Fromdate = {\"locator\":\"css=#hp-widget__depart\",\"desc\":\"from date selected\"}
+Todate = {\"locator\":\"css=#hp-widget__return\",\"desc\":\"to date selected\"}
+Clickonsearch = {\"locator\":\"css=#searchBtn\",\"desc\":\"Click on search button\"}
+Datelist = {\"locator\":\"xpath=//table[@class='ui-datepicker-calendar']//td\",\"desc\":\"get the list of date\"}

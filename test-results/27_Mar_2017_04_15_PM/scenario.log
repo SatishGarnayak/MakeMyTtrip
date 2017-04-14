@@ -1,0 +1,15 @@
+16:15:07 scenario.file.loc[Ljava.lang.String;@646d64ab
+16:15:08 loading BDD file: scenarios/Mmt.bdd
+16:15:08 total test found: 1
+16:15:08 
+
+Executing scenario: Book a flight - Booking a flight
+16:15:08 Invoking Teststep: Given Launch the mmt homepage
+16:15:19 Completed Teststep: Given Launch the mmt homepage
+16:15:19 Invoking Teststep: Then click on Fromcity field
+16:15:19 Completed Teststep: Then click on Fromcity field
+16:15:19 Invoking Teststep: Then Select fromcity
+16:15:19 Completed Teststep: Then Select fromcity
+16:15:19 Invoking Teststep: Then Enter to city
+16:15:19 Completed Teststep: Then Enter to city
+16:15:19 Competed scenario: Book a flight with status SUCESS

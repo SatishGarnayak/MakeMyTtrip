@@ -1,0 +1,240 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "launch",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "getCurrentWindowHandle",
+          "args": [
+            "{}"
+          ],
+          "result": "CDwindow-877c0fa2-04eb-4301-a56c-3ce578f34141",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "getCurrentWindowHandle",
+          "args": [
+            "{}"
+          ],
+          "result": "CDwindow-877c0fa2-04eb-4301-a56c-3ce578f34141",
+          "subLogs": [],
+          "duration": 0
+        },
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://www.makemytrip.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 9388
+        },
+        {
+          "commandName": "maximizeWindow",
+          "args": [
+            "{windowHandle=current}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1170
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "selectfromcity",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "getCurrentWindowHandle",
+          "args": [
+            "{}"
+          ],
+          "result": "CDwindow-877c0fa2-04eb-4301-a56c-3ce578f34141",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "getCurrentWindowHandle",
+          "args": [
+            "{}"
+          ],
+          "result": "CDwindow-877c0fa2-04eb-4301-a56c-3ce578f34141",
+          "subLogs": [],
+          "duration": 0
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=#hp-widget__sfrom, using=css selector}"
+          ],
+          "result": "id: 0.737768917021165-1",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.cssSelector: #hp-widget__sfrom",
+            "{\"id\":\"0.737768917021165-1\",\"value\":[{},{},{}]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 103
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "selecttocity",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "getCurrentWindowHandle",
+          "args": [
+            "{}"
+          ],
+          "result": "CDwindow-877c0fa2-04eb-4301-a56c-3ce578f34141",
+          "subLogs": [],
+          "duration": 6
+        },
+        {
+          "commandName": "getCurrentWindowHandle",
+          "args": [
+            "{}"
+          ],
+          "result": "CDwindow-877c0fa2-04eb-4301-a56c-3ce578f34141",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=#hp-widget__sTo, using=css selector}"
+          ],
+          "result": "id: 0.737768917021165-2",
+          "subLogs": [],
+          "duration": 30
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.cssSelector: #hp-widget__sTo",
+            "{\"id\":\"0.737768917021165-2\",\"value\":[\"pune\",{}]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 324
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "Clickonsearch",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "getCurrentWindowHandle",
+          "args": [
+            "{}"
+          ],
+          "result": "CDwindow-877c0fa2-04eb-4301-a56c-3ce578f34141",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "getCurrentWindowHandle",
+          "args": [
+            "{}"
+          ],
+          "result": "CDwindow-877c0fa2-04eb-4301-a56c-3ce578f34141",
+          "subLogs": [],
+          "duration": 6
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=#searchBtn, using=css selector}"
+          ],
+          "result": "id: 0.737768917021165-3",
+          "subLogs": [],
+          "duration": 108
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.cssSelector: #searchBtn",
+            "{\"id\":\"0.737768917021165-3\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 2782
+        },
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "Flight Search",
+          "subLogs": [],
+          "duration": 38
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given Launch the mmt homepage",
+      "type": "TestStepPass",
+      "duration": 13226,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then Select fromcity",
+      "type": "TestStepPass",
+      "duration": 214,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then Enter to city",
+      "type": "TestStepPass",
+      "duration": 437,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then Click on search",
+      "type": "TestStepFail",
+      "screenshot": "test-results/06_Apr_2017_11_39_AM/img/Book a flight_95rp25twf7j621628.png",
+      "duration": 3031,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "expected [Flight Sea] but found [Flight Search]",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ],
+  "errorTrace": "java.lang.AssertionError: expected [Flight Sea] but found [Flight Search]\r\n\tat .Then Click on search(scenarios/Mmt.bdd:9)\r\n\tat com.makemytrip.steps.Clickonwebelement.Clickonsearch_aroundBody6(Clickonwebelement.java:47)\r\n\tat com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:89)\r\n\tat com.makemytrip.steps.Clickonwebelement.Clickonsearch(Clickonwebelement.java:45)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:129)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:148)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:109)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:151)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:199)\r\n"
+}

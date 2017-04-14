@@ -1,0 +1,51 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "Selectlist",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "getCurrentWindowHandle",
+          "args": [
+            "{}"
+          ],
+          "result": "CDwindow-fd332a70-ca72-4b02-a65d-e2119cfcb0cf",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "getCurrentWindowHandle",
+          "args": [
+            "{}"
+          ],
+          "result": "CDwindow-fd332a70-ca72-4b02-a65d-e2119cfcb0cf",
+          "subLogs": [],
+          "duration": 0
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given select list of webelements",
+      "type": "TestStepFail",
+      "screenshot": "test-results/27_Mar_2017_11_14_AM/img/Book a flight_1os24aw2txztr61825.png",
+      "duration": 2642,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement cannot be cast to java.util.List",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ],
+  "errorTrace": "java.lang.ClassCastException: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement cannot be cast to java.util.List\r\n\tat .Given select list of webelements(scenarios/Mmt.bdd:6)\r\n\tat com.makemytrip.steps.Clickonwebelement.Selectlist_aroundBody0(Clickonwebelement.java:27)\r\n\tat com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:89)\r\n\tat com.makemytrip.steps.Clickonwebelement.Selectlist(Clickonwebelement.java:26)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:129)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:148)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:109)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:151)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:199)\r\n"
+}

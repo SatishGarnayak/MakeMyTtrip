@@ -1,0 +1,13 @@
+{
+  "name": "Makemytrip.scenarios.Mmt.bdd",
+  "status": "unstable",
+  "tests": [
+    "BDDTest"
+  ],
+  "total": 0,
+  "pass": 0,
+  "fail": 0,
+  "skip": 0,
+  "startTime": 1490611360294,
+  "endTime": 1490611360388
+}

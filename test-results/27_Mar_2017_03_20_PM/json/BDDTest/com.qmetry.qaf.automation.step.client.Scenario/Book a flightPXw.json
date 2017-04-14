@@ -1,0 +1,104 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "launch",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "getCurrentWindowHandle",
+          "args": [
+            "{}"
+          ],
+          "result": "CDwindow-7bd66a07-e56e-44b4-80e2-600259255930",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "getCurrentWindowHandle",
+          "args": [
+            "{}"
+          ],
+          "result": "CDwindow-7bd66a07-e56e-44b4-80e2-600259255930",
+          "subLogs": [],
+          "duration": 0
+        },
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://www.makemytrip.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 5168
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "Selectlist",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "getCurrentWindowHandle",
+          "args": [
+            "{}"
+          ],
+          "result": "CDwindow-7bd66a07-e56e-44b4-80e2-600259255930",
+          "subLogs": [],
+          "duration": 0
+        },
+        {
+          "commandName": "getCurrentWindowHandle",
+          "args": [
+            "{}"
+          ],
+          "result": "CDwindow-7bd66a07-e56e-44b4-80e2-600259255930",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=#hp-widget__sfrom, using=css selector}"
+          ],
+          "result": "id: 0.5277562896626775-1",
+          "subLogs": [],
+          "duration": 47
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.cssSelector: #hp-widget__sfrom",
+            "{\"id\":\"0.5277562896626775-1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 184
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given Launch the mmt homepage",
+      "type": "TestStepPass",
+      "duration": 7884,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then select list of webelements",
+      "type": "TestStepPass",
+      "duration": 294,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

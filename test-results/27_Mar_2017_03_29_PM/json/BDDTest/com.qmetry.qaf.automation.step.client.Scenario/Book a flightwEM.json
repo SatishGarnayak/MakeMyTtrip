@@ -1,0 +1,113 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "launch",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "getCurrentWindowHandle",
+          "args": [
+            "{}"
+          ],
+          "result": "CDwindow-6a6657b1-5c83-48ec-bf57-ba8a3be2e134",
+          "subLogs": [],
+          "duration": 0
+        },
+        {
+          "commandName": "getCurrentWindowHandle",
+          "args": [
+            "{}"
+          ],
+          "result": "CDwindow-6a6657b1-5c83-48ec-bf57-ba8a3be2e134",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://www.makemytrip.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 7000
+        },
+        {
+          "commandName": "maximizeWindow",
+          "args": [
+            "{windowHandle=current}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1177
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "Selectlist",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "getCurrentWindowHandle",
+          "args": [
+            "{}"
+          ],
+          "result": "CDwindow-6a6657b1-5c83-48ec-bf57-ba8a3be2e134",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "getCurrentWindowHandle",
+          "args": [
+            "{}"
+          ],
+          "result": "CDwindow-6a6657b1-5c83-48ec-bf57-ba8a3be2e134",
+          "subLogs": [],
+          "duration": 0
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=#hp-widget__sfrom, using=css selector}"
+          ],
+          "result": "id: 0.4680943742928769-1",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.cssSelector: #hp-widget__sfrom",
+            "{\"id\":\"0.4680943742928769-1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 164
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given Launch the mmt homepage",
+      "type": "TestStepPass",
+      "duration": 10921,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then click on From field",
+      "type": "TestStepPass",
+      "duration": 262,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

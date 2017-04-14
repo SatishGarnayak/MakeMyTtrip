@@ -1,0 +1,50 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "Selectlist",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "getCurrentWindowHandle",
+          "args": [
+            "{}"
+          ],
+          "result": "CDwindow-d7acecaa-f798-42b3-a02e-d3a8d7e71582",
+          "subLogs": [],
+          "duration": 5
+        },
+        {
+          "commandName": "getCurrentWindowHandle",
+          "args": [
+            "{}"
+          ],
+          "result": "CDwindow-d7acecaa-f798-42b3-a02e-d3a8d7e71582",
+          "subLogs": [],
+          "duration": 4
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=webengage-engagement-callback-frame, using=id}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 48
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given select list of webelements",
+      "type": "TestStepPass",
+      "duration": 2741,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

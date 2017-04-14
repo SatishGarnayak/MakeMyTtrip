@@ -1,0 +1,24 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Booking a flight",
+        "groups": [
+          "SMOKE"
+        ],
+        "lineNo": 3,
+        "name": "Book a flight",
+        "referece": "scenarios/Mmt.bdd",
+        "sign": "scenarios.Mmt.bdd.Book a flight()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1491473193157,
+      "duration": 625,
+      "result": "skip",
+      "passPer": 0.0
+    }
+  ]
+}

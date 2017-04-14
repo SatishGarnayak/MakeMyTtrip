@@ -1,0 +1,94 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "launch",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "getCurrentWindowHandle",
+          "args": [
+            "{}"
+          ],
+          "result": "CDwindow-e6c76d84-365c-4e11-a0c8-5e578ec4a38b",
+          "subLogs": [],
+          "duration": 0
+        },
+        {
+          "commandName": "getCurrentWindowHandle",
+          "args": [
+            "{}"
+          ],
+          "result": "CDwindow-e6c76d84-365c-4e11-a0c8-5e578ec4a38b",
+          "subLogs": [],
+          "duration": 0
+        },
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://www.makemytrip.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 3698
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "Selectlist",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "getCurrentWindowHandle",
+          "args": [
+            "{}"
+          ],
+          "result": "CDwindow-e6c76d84-365c-4e11-a0c8-5e578ec4a38b",
+          "subLogs": [],
+          "duration": 6
+        },
+        {
+          "commandName": "getCurrentWindowHandle",
+          "args": [
+            "{}"
+          ],
+          "result": "CDwindow-e6c76d84-365c-4e11-a0c8-5e578ec4a38b",
+          "subLogs": [],
+          "duration": 0
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=webengage-engagement-callback-frame, using=id}"
+          ],
+          "result": "[id: 0.7309284406087415-1]",
+          "subLogs": [],
+          "duration": 31
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given Launch the mmt homepage",
+      "type": "TestStepPass",
+      "duration": 6359,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then select list of webelements",
+      "type": "TestStepPass",
+      "duration": 101,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

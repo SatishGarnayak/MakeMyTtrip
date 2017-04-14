@@ -1,0 +1,114 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "launch",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "getCurrentWindowHandle",
+          "args": [
+            "{}"
+          ],
+          "result": "CDwindow-654c4aea-e248-4989-9913-c0476b6b0e31",
+          "subLogs": [],
+          "duration": 0
+        },
+        {
+          "commandName": "getCurrentWindowHandle",
+          "args": [
+            "{}"
+          ],
+          "result": "CDwindow-654c4aea-e248-4989-9913-c0476b6b0e31",
+          "subLogs": [],
+          "duration": 0
+        },
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://www.makemytrip.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 6831
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "Selectlist",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "getCurrentWindowHandle",
+          "args": [
+            "{}"
+          ],
+          "result": "CDwindow-654c4aea-e248-4989-9913-c0476b6b0e31",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "getCurrentWindowHandle",
+          "args": [
+            "{}"
+          ],
+          "result": "CDwindow-654c4aea-e248-4989-9913-c0476b6b0e31",
+          "subLogs": [],
+          "duration": 5
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=#hp-widget__sfrom, using=css selector}"
+          ],
+          "result": "id: 0.5570712587601208-1",
+          "subLogs": [],
+          "duration": 47
+        },
+        {
+          "commandName": "getElementTagName",
+          "args": [
+            "By.cssSelector: #hp-widget__sfrom",
+            "{\"id\":\"0.5570712587601208-1\"}"
+          ],
+          "result": "getElementTagName:input",
+          "subLogs": [],
+          "duration": 25
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given Launch the mmt homepage",
+      "type": "TestStepPass",
+      "duration": 9606,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then select list of webelements",
+      "type": "TestStepFail",
+      "screenshot": "test-results/27_Mar_2017_03_18_PM/img/Book a flight_ktxmnz023k4s18730.png",
+      "duration": 145,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Element should have been \"select\" but was \"input\"\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11465', ip: '10.11.31.36', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: driver.version: unknown",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been \"select\" but was \"input\"\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11465', ip: '10.11.31.36', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: driver.version: unknown\r\n\tat .Then select list of webelements(scenarios/Mmt.bdd:7)\r\n\tat org.openqa.selenium.support.ui.Select.<init>(Select.java:47)\r\n\tat com.makemytrip.steps.Clickonwebelement.Selectlist_aroundBody2(Clickonwebelement.java:33)\r\n\tat com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:89)\r\n\tat com.makemytrip.steps.Clickonwebelement.Selectlist(Clickonwebelement.java:32)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:129)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:148)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:109)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:151)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:199)\r\n"
+}
